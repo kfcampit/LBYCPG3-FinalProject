@@ -42,5 +42,45 @@ body {
     margin: auto;
 }
 
+#header-block h2 {
+    margin-top: 16px;
+    font-size: 27px;
+    width: 100%;
+    color: white;
+    text-align: center;
+    font-weight: 100;
+}
 
+#body-ELGA{
+    position: absolute;
+    width: 1920px;
+    height: 1457px;
+    left: 1px;
+    top: 2566px;
+    background: black;
+}
 
+#body-ELGA h1{
+    font-display: bold;
+    font-size: 82px;
+    position: absolute;
+    width: 849px;
+    height: 111px;
+    left: 128px;
+    top: 94px;
+    font-weight: 300;
+    color: #1E403B;
+}
+
+#body-ELGA line{
+    font-display: bold;
+    font-size: 82px;
+    position: absolute;
+    width: 849px;
+    height: 111px;
+    left: 128px;
+    top: 94px;
+    font-weight: 300;
+    background-color: #1E403B;
+    margin: auto;
+}
