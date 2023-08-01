@@ -1,0 +1,40 @@
+#neubar {
+    background: #00703C;
+    box-shadow: 2px 3px 6px rgba(0, 0, 0, 0.4);
+}
+
+.nav-item .active a {
+    color: white;
+}
+
+#neubar .nav-item {
+    margin: auto 4px;
+}
+
+#neubar a {
+    color: white;
+    padding-left: 6px;
+    padding-right: 6px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#neubar .dropdown-menu {
+    background: white;
+    box-shadow: 2px 3px 6px rgba(0, 0, 0, 0.4);
+    color: #00703C;
+    width: 300px;
+}
+
+#neubar .dropdown-item {
+    color: #00703C;
+}
+
+a.navbar-brand {
+    color: #454545
+}
+
+#website-title {
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+    line-height: normal;
+}
