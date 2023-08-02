@@ -9,7 +9,7 @@ body {
     background-size: cover;
     background-position: center;
     height: 80vh;
-    background-image: url(../img/cpe-bg.jpg);
+    background-image: url(../img/grad-img2.jpg);
 }
 
 #page-name {
@@ -66,63 +66,6 @@ body {
 }
 
 
-/* FRAME 1 STYLINGS */
-
-#frame1 {
-    background-color: white;
-    padding-top: 128px;
-    padding-bottom: 128px;
-    height: max-content;
-    width: fit-content;
-}
-
-#frame1 h1 {
-    color: #1e403b;
-    font-size: 40px;
-    font-weight: 700;
-}
-
-#frame1 .line {
-    background-color: #1e403b;
-    width: 60%;
-    height: 3px;
-    margin-bottom: 32px;
-}
-
-#frame1 p {
-    text-align: justify;
-    padding-right: 32px;
-}
-
-.cpe-img {
-    width: 100%;
-    height: 40vh;
-    background-image: url(../img/cpe-img1.JPG);
-    background-size: cover;
-}
-
-#frame1-block {
-    height: 150px;
-    width: 230px;
-    position: relative;
-    top: 75%;
-    left: 75%;
-    z-index: 1;
-    background-color: #1e403b;
-}
-
-#frame1 h2 {
-    position: relative;
-    color: white;
-    font-size: 40px;
-    font-weight: 700;
-    width: 100%;
-    text-align: center;
-    top: 50%;
-    transform: translateY(-50%);
-}
-
-
 /* FRAME 2 STYLINGS */
 
 #frame2 {
@@ -153,22 +96,12 @@ body {
     text-align: justify;
 }
 
-.cpe-img-bg {
-    background-image: url(/img/cpe-img2.jpg);
-    background-size: cover;
-    background-position: center;
-    position: relative;
-    top: 0%;
-    right: 0%;
-    width: 90vh;
-    height: fit-content;
-}
-
 .frame2-col1 {
     width: 50%;
 }
 
 .frame2-col1-container {
+    margin-top: 80px;
     max-width: 600px;
     margin-left: auto;
     margin-right: auto;
@@ -214,17 +147,6 @@ body {
     color: white;
 }
 
-.cpe-img-bg {
-    background-image: url(/img/cpe-img2.jpg);
-    background-size: cover;
-    background-position: center;
-    position: relative;
-    top: 0%;
-    right: 0%;
-    width: 70vh;
-    height: fit-content;
-}
-
 .frame3-col1 {
     width: 50%;
 }
@@ -241,22 +163,6 @@ body {
     height: 50vh;
     width: 50%;
     background-image: url(/img/cpe-img3.png);
-}
-
-
-/* FRAME 4 STYLINGS */
-
-#frame4 {
-    background-color: #1e1e1e;
-}
-
-#frame4 h1 {
-    color: white;
-    text-align: center;
-    padding-top: 32px;
-    padding-bottom: 32px;
-    font-size: 40px;
-    font-weight: 700;
 }
 
 
@@ -285,7 +191,7 @@ body {
     margin-top: 7.5%;
 }
 
-.frame5-container h1 {
+.frame5-container h3 {
     transform: translateY(-50%);
     color: #1e403b;
     font-size: 50px;
@@ -299,7 +205,7 @@ body {
     background-size: cover;
     height: 50vh;
     width: 50%;
-    background-image: url(/img/cpe-img4.png);
+    background-image: url(../img/grad-img1.jpg);
 }
 
 #frame5-block2 {
@@ -342,140 +248,60 @@ body {
     background-image: url(/img/cpe-img9.png);
 }
 
-
-/* FRAME 6 STYLINGS */
-
-#frames-container {
+#frame4 {
     display: flex;
-    flex-direction: column;
+    background-color: #EFECD6;
+    height: fit-content;
+    width: 100%;
 }
 
-#frame6 {
-    background-color: white;
+#frame4 h1 {
+    width: 100%;
+    text-align: center;
     padding-top: 64px;
-    padding-bottom: 64px;
-    height: max-content;
-    width: fit-content;
-    order: 3;
-}
-
-#frame6 h1 {
     color: #1e403b;
     font-size: 40px;
     font-weight: 700;
 }
 
-#frame6 .line {
+#frame4 .line {
+    margin-left: 20%;
     background-color: #1e403b;
-    width: 27%;
+    width: 60%;
     height: 3px;
     margin-bottom: 32px;
 }
 
-#frame6 .title {
+#frame4 p {
     text-align: justify;
-    font-weight: bolder;
-    font-size: 23px;
-    list-style-type: none;
-    border: 1px solid white;
-    border-collapse: collapse;
-    background-color: white;
 }
 
-#frame6 .whitecell {
-    list-style-type: none;
-    border: 1px solid white;
-    border-collapse: collapse;
-    background-color: white;
-}
-
-#frame6 .nobullet {
-    text-align: justify;
-    list-style-type: none;
-    border: 1px solid white;
-    border-collapse: collapse;
-    background-color: white;
-}
-
-.peo-img {
-    width: 18vb;
-    height: 18vh;
-    margin-top: 5%;
-    margin-bottom: 5%;
-}
-
-
-/* FRAME 7 STYLINGS */
-
-
-/* FRAME 8 STYLINGS */
-
-#frame8 {
-    height: 50vh;
-    background-color: #1e403b;
-}
-
-#frame8 #page-name {
-    display: flex;
-    position: absolute;
-    z-index: -1;
-    left: calc(100% - 200px);
-    top: -100px;
-}
-
-#frame8 #page-name div {
-    background-color: white;
-    height: 120px;
-    width: 280px;
-}
-
-#frame8 #title-text {
-    padding-left: 16px;
-    padding-top: 45%;
-    transform: translateY(-50%);
-    color: #1e403b;
-    font-size: 32px;
-    font-weight: 700;
-}
-
-#frame8 #carousel-content {
-    height: auto;
-    width: 45vw;
+.cpe-img-bg {
+    background-image: url(/img/cpe-img2.jpg);
+    background-size: cover;
+    background-position: center;
     position: relative;
-    top: 60%;
-    transform: translateY(-50%);
+    top: 0%;
+    right: 0%;
+    width: 90vh;
+    height: fit-content;
 }
 
-
-/* FRAME 9 STYLINGS */
-
-
-/* FRAME 10 STYLINGS */
-
-#frame10 {
-    background-color: #EFECD6;
+.frame4-col1 {
+    width: 50%;
 }
 
-#frame10 .container {
-    padding-top: 64px;
+.frame4-col1-container {
+    margin-top: 0px;
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
-#frame10 #title-block {
-    width: 100%;
-    height: 64px;
-    background-color: #1e403b;
-}
-
-#frame10 h1 {
-    color: white;
-    padding-top: 10px;
-    font-size: 40px;
-    font-weight: 700;
-}
-
-#frame10 img {
-    width: 100%;
-    height: auto;
-    margin-top: 32px;
-    margin-bottom: 64px;
+.frame4-col2 {
+    background-position: center;
+    background-size: cover;
+    height: 50vh;
+    width: 50%;
+    background-image: url(/img/cpe-img2.png);
 }
