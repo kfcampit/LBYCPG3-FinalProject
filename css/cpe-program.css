@@ -5,26 +5,47 @@ body {
 #page-header {
     background-size: cover;
     background-position: center;
-    height: calc(100vh * 0.5);
-    background-image: url(../img/header1.jpg);
+    height: 80vh;
+    background-image: url(../img/cpe-bg.jpg);
 }
 
-#header-block {
+#page-name {
+    display: flex;
     position: absolute;
-    width: 720px;
-    height: 320px;
-    top: calc(100vh * 0.4);
-    left: calc(50% - 360px);
-    background-color: #1e403b;
-    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    z-index: 1;
+    left: calc(100% - 360px);
+    top: -32px;
 }
 
-#header-contents {
+#page-name img {
+    width: 150px;
+    height: auto;
+}
+
+#page-name div {
+    background-color: white;
+    height: 150px;
+    width: 320px;
+}
+
+#title-text {
+    padding-left: 16px;
+    padding-top: 45%;
+    transform: translateY(-50%);
+    color: #1e403b;
+    font-size: 40px;
+    font-weight: 700;
+}
+
+#carousel-content {
+    height: auto;
+    width: 45vw;
     position: relative;
     top: 50%;
     transform: translateY(-50%);
 }
 
+<<<<<<< Updated upstream
 #header-block h1 {
     padding-left: 64px;
     padding-right: 64px;
@@ -44,3 +65,8 @@ body {
 
 
 
+=======
+.carousel-item img {
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+>>>>>>> Stashed changes
