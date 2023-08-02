@@ -1,0 +1,112 @@
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+#page-header {
+    background-size: cover;
+    background-position: center;
+    height: calc(100vh * 0.5);
+    background-image: url(../img/header2.jpg);
+}
+
+#header-block {
+    position: absolute;
+    width: 720px;
+    height: 320px;
+    top: calc(100vh * 0.4);
+    left: calc(50% - 360px);
+    background-color: #1e403b;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+#header-contents {
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+#header-block h1 {
+    padding-left: 64px;
+    padding-right: 64px;
+    width: 100%;
+    font-weight: 300;
+    color: white;
+    text-align: center;
+    font-size: 50px;
+}
+
+#header-block .line {
+    height: 2px;
+    width: 80%;
+    background-color: white;
+    margin: auto;
+}
+
+#header-block h2 {
+    margin-top: 16px;
+    font-size: 27px;
+    width: 100%;
+    color: white;
+    text-align: center;
+    font-weight: 100;
+}
+
+#fac-admin-block {
+    position: relative;
+    width: 720px;
+    height: 160px;
+    margin-top: 200px;
+    left: calc(50% - 360px);
+    background-color: #1e403b;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+#fac-staff-block {
+    position: relative;
+    width: 720px;
+    height: 160px;
+    margin-top: 50px;
+    left: calc(50% - 360px);
+    background-color: #1e403b;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+#fac-admin-contents {
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+#fac-admin-block h1 {
+    padding-left: 64px;
+    padding-right: 64px;
+    width: 100%;
+    font-weight: 300;
+    color: white;
+    text-align: center;
+    font-size: 60px;
+    font-weight: bold;
+}
+
+#faculty-admin-list {
+    position: relative;
+    margin-top: 50px;
+}
+
+.faculty-admin-card-title{
+    text-align: center;
+    font-weight: bold;
+    color:#1e403b;
+}
+
+#faculty-admin-card-text-illahi{
+    text-align: center;
+    margin-top: 27px;
+    color:#1e403b;
+}
+
+.faculty-admin-card-text{
+    text-align: center;
+    margin-top: 50px;
+    color:#1e403b;
+}
