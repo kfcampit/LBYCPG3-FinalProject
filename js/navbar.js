@@ -42,6 +42,6 @@ document.write(
                     </li>
                 </ul>
             </div>
-        </div>
+        </div>  
     </nav>`
 );
