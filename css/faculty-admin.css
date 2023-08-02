@@ -71,6 +71,23 @@ body {
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
 }
 
+#fac-staff-block h1 {
+    padding-left: 64px;
+    padding-right: 64px;
+    width: 100%;
+    font-weight: 300;
+    color: white;
+    text-align: center;
+    font-size: 60px;
+    font-weight: bold;
+}
+
+#fac-staff-contents {
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
 #fac-admin-contents {
     position: relative;
     top: 50%;
@@ -88,7 +105,7 @@ body {
     font-weight: bold;
 }
 
-#faculty-admin-list {
+.faculty-list {
     position: relative;
     margin-top: 50px;
 }
@@ -104,4 +121,8 @@ body {
     text-align: center;
     margin-top: 25px;
     color:#1e403b;
+}
+
+#second-row{
+    margin-top: 50px;
 }
