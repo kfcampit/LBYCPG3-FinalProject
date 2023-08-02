@@ -88,7 +88,7 @@ body {
     font-weight: bold;
 }
 
-#faculty-admin-list {
+.faculty-list {
     position: relative;
     margin-top: 50px;
 }
@@ -97,16 +97,12 @@ body {
     text-align: center;
     font-weight: bold;
     color:#1e403b;
-}
-
-#faculty-admin-card-text-illahi{
-    text-align: center;
-    margin-top: 27px;
-    color:#1e403b;
+    font-size: 25;
 }
 
 .faculty-admin-card-text{
     text-align: center;
-    margin-top: 50px;
+    margin-top: 25px;
     color:#1e403b;
+    font-size: 20px;
 }
