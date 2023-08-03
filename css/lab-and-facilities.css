@@ -1,0 +1,219 @@
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+#page-header {
+    background-size: cover;
+    background-position: center;
+    height: calc(100vh * 0.5);
+    background-image: url(../img/header1.jpg);
+}
+
+#header-block {
+    position: absolute;
+    width: 720px;
+    height: 320px;
+    top: calc(100vh * 0.4);
+    left: calc(50% - 360px);
+    background-color: #1e403b;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+#header-contents {
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+#header-block h1 {
+    padding-left: 64px;
+    padding-right: 64px;
+    width: 100%;
+    font-weight: 300;
+    color: white;
+    text-align: center;
+    font-size: 50px;
+}
+
+#header-block .line {
+    height: 2px;
+    width: 80%;
+    background-color: white;
+    margin: auto;
+}
+
+#header-block h2 {
+    margin-top: 16px;
+    font-size: 27px;
+    width: 100%;
+    color: white;
+    text-align: center;
+    font-weight: 100;
+}
+
+
+/* FRAME 2 STYLINGS */
+
+.frame2 {
+    display: flex;
+    background-color: #EFECD6;
+    height: fit-content;
+    width: 100%;
+}
+
+.frame2 h1 {
+    width: 100%;
+    text-align: center;
+    padding-top: 64px;
+    color: #1e403b;
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.frame2 .line {
+    margin-left: 20%;
+    background-color: #1e403b;
+    width: 60%;
+    height: 3px;
+    margin-bottom: 32px;
+}
+
+.frame2 p {
+    text-align: justify;
+}
+
+.frame2-col1 {
+    width: 50%;
+}
+
+.frame2-col1-container {
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10%;
+}
+
+.frame2-col2 {
+    background-position: center;
+    background-size: cover;
+    height: 70vh;
+    width: 50%;
+    background-image: url(../img/lab-and-facilities/electrical-machine-lab-1.jpg);
+}
+
+.frame2-col2-2{
+    background-position: center;
+    background-size: cover;
+    height: 70vh;
+    width: 50%;
+    background-image: url(../img/lab-and-facilities/electrical-machine-lab-2.jpg);
+}
+
+
+/* FRAME 3 STYLINGS */
+
+.frame3 {
+    display: flex;
+    background-color: #1e403b;
+    height: fit-content;
+    width: 100%;
+}
+
+.frame3 h1 {
+    width: 100%;
+    text-align: center;
+    padding-top: 64px;
+    color: white;
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.frame3 .line {
+    margin-left: 20%;
+    background-color: white;
+    width: 60%;
+    height: 3px;
+    margin-bottom: 32px;
+}
+
+.frame3 p {
+    text-align: justify;
+    color: white;
+}
+
+.frame3-col1 {
+    width: 50%;
+}
+
+.frame3-col1-container {
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10%;
+}
+
+.frame3-col2 {
+    background-position: center;
+    background-size: cover;
+    height: 70vh;
+    width: 50%;
+    background-image: url(../img/lab-and-facilities/electrical-circuits-lab.jpg);
+}
+
+
+/* FRAME 4 STYLINGS */
+
+.frame4 {
+    display: flex;
+    background-color: #EFECD6;
+    height: fit-content;
+    width: 100%;
+}
+
+.frame4 h1 {
+    width: 100%;
+    text-align: center;
+    padding-top: 64px;
+    color: #1e403b;
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.frame4 .line {
+    margin-left: 20%;
+    background-color: #1e403b;
+    width: 60%;
+    height: 3px;
+    margin-bottom: 32px;
+}
+
+.frame4 p {
+    text-align: justify;
+}
+
+.frame4-col1 {
+    width: 50%;
+}
+
+.frame4-col1-container {
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10%;
+}
+
+.frame4-col2 {
+    background-position: center;
+    background-size: cover;
+    height: 70vh;
+    width: 50%;
+    background-image: url(../img/lab-and-facilities/analog-and-digital-electronics-lab-1.jpg);
+}
+
+.frame4-col2-2{
+    background-position: center;
+    background-size: cover;
+    height: 70vh;
+    width: 50%;
+    background-image: url(../img/lab-and-facilities/analog-and-digital-electronics-lab-2.jpg);
+}
