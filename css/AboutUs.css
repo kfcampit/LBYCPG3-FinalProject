@@ -15,7 +15,7 @@ body {
     height: 320px;
     top: calc(100vh * 0.4);
     left: calc(50% - 360px);
-    background-color: #1e403b;
+    background-color: white;
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
 }
 
@@ -30,7 +30,7 @@ body {
     padding-right: 64px;
     width: 100%;
     font-weight: 300;
-    color: white;
+    color: #1e403b;
     text-align: center;
     font-size: 50px;
 }
@@ -38,7 +38,7 @@ body {
 #header-block .line {
     height: 2px;
     width: 80%;
-    background-color: white;
+    background-color: #1e403b;
     margin: auto;
 }
 
@@ -46,9 +46,9 @@ body {
     margin-top: 16px;
     font-size: 27px;
     width: 100%;
-    color: white;
+    color: #1e403b;
     text-align: center;
-    font-weight: 100;
+    font-weight: 200;
 }
 
 #body-WhiteBG {
@@ -56,26 +56,27 @@ body {
     background: white;
 }
 
-
 /* FRAME 1 STYLINGS */
 
 #frame1 {
-    background-color: white;
-    padding-top: 128px;
-    padding-bottom: 128px;
-    height: max-content;
-    width: fit-content;
-    order: 1;
+    display: flex;
+    background-color: #1e403b;
+    height: fit-content;
+    width: 100%;
 }
 
 #frame1 h1 {
-    color: #1e403b;
-    font-size: 40px;
+    width: 100%;
+    text-align: left;
+    padding-top: 64px;
+    color: white;
+    font-size: 60px;
     font-weight: 700;
 }
 
 #frame1 .line {
-    background-color: #1e403b;
+    margin-left: 0%;
+    background-color: white;
     width: 60%;
     height: 3px;
     margin-bottom: 32px;
@@ -83,7 +84,131 @@ body {
 
 #frame1 p {
     text-align: justify;
+    color: white;
+    font-size: 17px;
+}
+
+.cpe-img-bg {
+    background-image: url(../img/cpe-img2.jpg);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    top: 0%;
+    right: 0%;
+    width: 90vh;
+    height: fit-content;
+}
+
+.frame1-col1 {
+    width: 50%;
+    margin-top: 128px;
+    margin-bottom: 128px;
+}
+
+.frame1-col1-container {
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.frame1-col2 {
+    background-position: center;
+    background-size: cover;
+    height: 70vh;
+    width: 50%;
+    background-image: url(../img/cpe-img2.png);
+}
+
+
+/* FRAME 2 STYLINGS */
+
+#frame2 {
+    display: flex;
+    background-color: #EFECD6;
+    height: fit-content;
+    width: 100%;
+}
+
+#frame2 h1 {
+    width: 100%;
+    text-align: right;
+    padding-top: 64px;
+    color: #1e403b;
+    font-size: 60px;
+    font-weight: 700;
+}
+
+#frame2 .line {
+    margin-left: 40%;
+    background-color: #1e403b;
+    width: 60%;
+    height: 3px;
+    margin-bottom: 32px;
+}
+
+#frame2 p {
+    text-align: justify;
+    color: #1e403b;
+    font-size: 17px;
+}
+
+.cpe-img-bg {
+    background-image: url(../img/cpe-img2.jpg);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    top: 0%;
+    right: 0%;
+    width: 70vh;
+    height: fit-content;
+}
+
+.frame2-col1 {
+    width: 50%;
+}
+
+.frame2-col1-container {
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.frame2-col2 {
+    background-position: center;
+    background-size: cover;
+    height: 70vh;
+    width: 50%;
+    background-image: url(../img/cpe-img3.png);
+}
+
+/* FRAME 3 STYLINGS */
+
+#frame3 {
+    background-color: white;
+    padding-top: 48px;
+    padding-bottom: 48px;
+    height: max-content;
+    width: 90%;
+    order: 1;
+}
+
+#frame3 h1 {
+    color: #1e403b;
+    font-size: 60px;
+    font-weight: 700;
+}
+
+#frame3 .line {
+    background-color: #1e403b;
+    width: 60%;
+    height: 3px;
+    margin-bottom: 32px;
+}
+
+#frame3 p {
+    text-align: justify;
     padding-right: 32px;
+    font-size: 17px;
 }
 
 .elga-img {
@@ -93,7 +218,7 @@ body {
     background-size: cover;
 }
 
-#frame1-block {
+#frame3-block {
     height: 150px;
     width: 230px;
     position: relative;
@@ -103,7 +228,7 @@ body {
     background-color: #1e403b;
 }
 
-#frame1 h2 {
+#frame3 h2 {
     position: relative;
     color: white;
     font-size: 40px;
@@ -148,50 +273,39 @@ tr {
 
 /* Recog */
 
+/* FRAME 4 STYLINGS */
 
-/* FRAME 2 STYLINGS */
-
-#frame2 {
+#frame4 {
     background-color: #1e403b;
-    padding-top: 128px;
-    padding-bottom: 128px;
-    height: max-content;
-    width: fit-content;
-    order: 2;
 }
 
-#frame2 h1 {
+#frame4 h1 {
     color: white;
-    font-size: 40px;
-    margin-right: 3%;
-    margin-left: 3%;
+    font-size: 60px;
+    margin-top: 68px;
+    margin-left: 9.2%;
     font-weight: 700;
 }
 
-#frame2 .line {
+#frame4 .line {
     margin-left: 1%;
     background-color: white;
-    margin-right: 4%;
-    margin-left: 4%;
+    margin-left: 10%;
     width: 28%;
     height: 3px;
     margin-bottom: 32px;
 }
 
-#frame2 .innercover {
+#frame4 .innercover {
     background-color: white;
     padding-top: 60px;
     padding-bottom: 128px;
     margin-right: 4%;
     margin-left: 4%;
     height: fit-content;
-    width: fit-content;
-}
-
-#frame2 h2 {
-    color: #1e403b;
-    font-size: 35px;
-    font-weight: 700;
+    width: 80%;
+    margin: 0 auto;
+    margin-bottom: 128px;
 }
 
 .award-img {
@@ -201,7 +315,7 @@ tr {
     background-size: cover;
 }
 
-#frame2-block {
+#frame4-block {
     height: 150px;
     width: 230px;
     position: relative;
@@ -211,13 +325,14 @@ tr {
     background-color: #1e403b;
 }
 
-#frame2 h2 {
+#frame4 h2 {
     position: relative;
     color: #1e403b;
-    font-size: 28px;
+    font-size: 35px;
     font-weight: 700;
     width: 100%;
-    text-align: center;
+    text-align: left;
+    margin-left: 2%;
     top: 50%;
     transform: translateY(-50%);
 }
