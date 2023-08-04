@@ -110,19 +110,20 @@ body {
     margin-top: 50px;
 }
 
-.faculty-admin-card-title{
+.faculty-admin-card-title {
     text-align: center;
     font-weight: bold;
-    color:#1e403b;
+    color: #1e403b;
     font-size: 25;
 }
 
-.faculty-admin-card-text{
+.faculty-admin-card-text {
     text-align: center;
     margin-top: 25px;
-    color:#1e403b;
+    color: #1e403b;
 }
 
-#second-row{
+#second-row {
     margin-top: 50px;
+    margin-bottom: 50px;
 }
