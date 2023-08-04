@@ -25,7 +25,7 @@ document.write(
                         <a class='nav-link mx-2 dropdown-toggle' href='#' id='navbarDropdownMenuLink' role='button' data-bs-toggle='dropdown' aria-expanded='false'> Academics </a>
                         <ul class='dropdown-menu' aria-labelledby='navbarDropdownMenuLink'>
                             <li><a class='dropdown-item' href='./cpe-program.html'>Computer Engineering</a></li>
-                            <li><a class='dropdown-item' href='#'>Electronics Engineering</a></li>
+                            <li><a class='dropdown-item' href='./ece-program.html'>Electronics Engineering</a></li>
                             <li><a class='dropdown-item' href='./graduate.html'>Graduate Studies</a></li>
                         </ul>
                     </li>
@@ -38,7 +38,7 @@ document.write(
                         <a class='nav-link mx-2 dropdown-toggle' href='#' id='navbarDropdownMenuLink' role='button' data-bs-toggle='dropdown' aria-expanded='false'> Research </a>
                         <ul class='dropdown-menu' aria-labelledby='navbarDropdownMenuLink'>
                             <li><a class='dropdown-item' href='#'>Thesis Archive</a></li>
-                            <li><a class='dropdown-item' href='#'>Laboratories and Facilities</a></li>
+                            <li><a class='dropdown-item' href='./lab-and-facilities.html'>Laboratories and Facilities</a></li>
                         </ul>
                     </li>
                 </ul>

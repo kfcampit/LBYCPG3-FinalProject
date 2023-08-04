@@ -9,7 +9,7 @@ body {
     background-size: cover;
     background-position: center;
     height: 80vh;
-    background-image: url(../img/cpe-bg.jpg);
+    background-image: url(../img/ece-bg.jpg);
 }
 
 #page-name {
@@ -126,6 +126,7 @@ body {
 /* FRAME 2 STYLINGS */
 
 #frame2 {
+    margin-top: -10px;
     display: flex;
     background-color: #EFECD6;
     height: fit-content;

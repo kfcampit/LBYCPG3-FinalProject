@@ -37,7 +37,7 @@ document.write(
                 <div class="col" id="right-col">
                     <a href="AboutUs.html">About Us</a><br>
                     <a href="cpe-program.html">Computer Engineering</a><br>
-                    <a href="#">Electronics Engineering</a><br>
+                    <a href="ece-program.html">Electronics Engineering</a><br>
                     <a href="faculty-admin.html">Faculty</a><br>
                 </div>
             </div>
