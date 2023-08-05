@@ -277,6 +277,7 @@ tr {
 
 #frame4 {
     background-color: #1e403b;
+    order: 2;
 }
 
 #frame4 h1 {
@@ -365,4 +366,113 @@ tr {
 
 .card {
     border: none;
+}
+
+/* Board of Directors */
+/* FRAME 6 STYLINGS */
+
+#frames-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.bgWheat{
+    height: max-content;
+    width: 100%;
+    background-color: #EFECD6;
+    order: 3;
+}
+
+#frame6 {
+    background-color: #EFECD6;
+    padding-top: 64px;
+    padding-bottom: 64px;
+    height: max-content;
+    width: 90%;
+
+}
+
+#frame6 h1 {
+    color: #1e403b;
+    font-size: 60px;
+    font-weight: 700;
+}
+
+#frame6 .line {
+    background-color: #1e403b;
+    width: 27%;
+    height: 3px;
+    margin-bottom: 32px;
+}
+
+#frame6 .title {
+    text-align: justify;
+    font-weight: bolder;
+    font-size: 23px;
+    list-style-type: none;
+    border: 1px solid  #EFECD6;
+    border-collapse: collapse;
+    background-color: #EFECD6;
+}
+
+#frame6 .img-colorcell {
+    list-style-type: none;
+    border: 1px solid  #EFECD6;
+    border-collapse: collapse;
+    background-color:  #EFECD6;
+}
+
+
+#frame6 .colorcell {
+    list-style-type: none;
+    border: 1px solid  #EFECD6;
+    border-collapse: collapse;
+    background-color:  #EFECD6;
+    width: 70%;
+}
+
+#frame6 .nobullet {
+    text-align: justify;
+    list-style-type: none;
+    border: 1px solid  #EFECD6;
+    border-collapse: collapse;
+    background-color:  #EFECD6;
+    text-align: justify;
+    
+}
+
+#frame6 .nobullet-1 {
+    text-align: justify;
+    list-style-type: none;
+    border: 1px solid  #EFECD6;
+    border-collapse: collapse;
+    background-color:  #EFECD6;
+    text-align: justify;
+    padding-right: 70%;
+    
+}
+
+#frame6 .colorcell-1 {
+    list-style-type: none;
+    border: 1px solid  #EFECD6;
+    border-collapse: collapse;
+    background-color:  #EFECD6;
+    width: 85.5%;
+}
+
+.board-img {
+    width: 18vb;
+    height: 18vh;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    border-radius: 50%;
+    background-color:  #EFECD6;
+    border: 1px solid  #EFECD6;
+}
+
+.center-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* This will center the content vertically on the viewport */
 }
