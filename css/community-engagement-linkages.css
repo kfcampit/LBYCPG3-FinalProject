@@ -1,0 +1,173 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #EFECD6;
+}
+
+#page-header {
+    background-size: cover;
+    background-position: center;
+    height: calc(100vh * 0.5);
+    background-image: url(../img/header1.jpg);
+}
+
+#header-block {
+    position: absolute;
+    width: 720px;
+    height: 320px;
+    top: calc(100vh * 0.4);
+    left: calc(50% - 360px);
+    background-color: #1e403b;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+#header-contents {
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+#header-block h1 {
+    padding-left: 64px;
+    padding-right: 64px;
+    width: 100%;
+    font-weight: 300;
+    color: white;
+    text-align: center;
+    font-size: 50px;
+}
+
+#header-block .line {
+    height: 2px;
+    width: 80%;
+    background-color: white;
+    margin: auto;
+}
+
+#header-block h2 {
+    margin-top: 16px;
+    font-size: 27px;
+    width: 100%;
+    color: white;
+    text-align: center;
+    font-weight: 100;
+}
+
+#first-text-header {
+    position: relative;
+    margin-top: 200px;
+    margin-bottom: 50px;
+    padding-left: 64px;
+    padding-right: 64px;
+    width: 100%;
+    color:#1e403b;
+    text-align: center;
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.text-header-line {
+    height: 2px;
+    width: 60%;
+    background-color: #1e403b;
+    margin: auto;
+    margin-bottom: 50px;
+}
+
+.text-body {
+    position: relative;
+    margin-bottom: 50px;
+    padding-left: 64px;
+    padding-right: 64px;
+    width: 100%;
+    color:#1e403b;
+    text-align: justify;
+}
+
+.text-header {
+    position: relative;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    padding-left: 64px;
+    padding-right: 64px;
+    width: 100%;
+    color:#1e403b;
+    text-align: center;
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.contact-info {
+    margin-bottom: 50px;
+}
+
+#activities-picture {
+    padding-left: 64px;
+    padding-right: 64px;
+    width: 100%;
+}
+
+#engagement-plan { /* header */
+    padding-left: 64px;
+    padding-right: 64px;
+    width: 100%;
+    text-align: center;
+    padding: 30px;
+    border: 5px solid;
+    border-color: black;
+    font-size: 20px;
+}
+
+#engagement-plan th{ /* header */
+    padding-top: 30px;
+    padding-bottom: 30px;
+    border: 5px solid;
+    border-color: black;
+    background-color: #1e403b;
+    color: white;
+}
+
+#engagement-plan td{ /* cell */
+    padding-top: 30px;
+    padding-bottom: 30px;
+    border: 5px solid;
+    border-color: black;
+    background-color: white;
+}
+
+.green-bg {
+    background-color: #1e403b;
+}
+
+.text-header-green {
+    position: relative;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    padding-left: 64px;
+    padding-right: 64px;
+    width: 100%;
+    color:white;
+    text-align: center;
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.text-header-line-2 {
+    height: 2px;
+    width: 60%;
+    background-color: #EFECD6;
+    margin: auto;
+    margin-bottom: 50px;
+}
+
+#text-header-3-year {
+    position: relative;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    padding-left: 64px;
+    padding-right: 64px;
+    width: 100%;
+    color:#1e403b;
+    text-align: center;
+    font-size: 50px;
+    font-weight: bold;
+}
