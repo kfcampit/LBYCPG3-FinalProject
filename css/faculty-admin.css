@@ -53,20 +53,20 @@ body {
 
 #fac-admin-block {
     position: relative;
-    width: 720px;
-    height: 160px;
+    width: 670px;
+    height: 110px;
     margin-top: 200px;
-    left: calc(50% - 360px);
+    left: calc(50% - 335px);
     background-color: #1e403b;
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
 }
 
 #fac-staff-block {
     position: relative;
-    width: 720px;
-    height: 160px;
-    margin-top: 50px;
-    left: calc(50% - 360px);
+    width: 670px;
+    height: 110px;
+    margin-top: 200px;
+    left: calc(50% - 335px);
     background-color: #1e403b;
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
 }
@@ -94,6 +94,13 @@ body {
     transform: translateY(-50%);
 }
 
+.text-container {
+  display: none;
+}
+
+.text-visible {
+  display: block;
+}
 #fac-admin-block h1 {
     padding-left: 64px;
     padding-right: 64px;
@@ -126,4 +133,188 @@ body {
 .other-row {
     margin-top: 50px;
     margin-bottom: 50px;
+}
+
+#faculty-text-1 a,
+#faculty-text-2 a,
+#faculty-text-3 a,
+#faculty-text-4 a,
+#faculty-text-5 a,
+#faculty-text-6 a,
+#faculty-text-7 a,
+#faculty-text-8 a,
+#faculty-text-9 a,
+#faculty-text-10 a,
+#faculty-text-11 a,
+#faculty-text-12 a,
+#faculty-text-13 a,
+#faculty-text-14 a,
+#faculty-text-15 a,
+#faculty-text-16 a,
+#faculty-text-17 a,
+#faculty-text-18 a,
+#faculty-text-19 a,
+#faculty-text-20 a,
+#faculty-text-21 a,
+#faculty-text-22 a,
+#faculty-text-23 a,
+#faculty-text-24 a,
+#faculty-text-25 a,
+#faculty-text-26 a,
+#faculty-text-27 a,
+#faculty-text-28 a,
+#faculty-text-29 a,
+#faculty-text-30 a,
+#faculty-text-31 a,
+#faculty-text-32 a,
+#faculty-text-33 a,
+#faculty-text-34 a,
+#faculty-text-35 a,
+#faculty-text-36 a,
+#faculty-text-37 a,
+#faculty-text-38 a,
+#faculty-text-39 a,
+#faculty-text-40 a,
+#faculty-text-41 a {
+    color: #1E403B;
+}
+
+#res-pub-button-1,
+#res-pub-button-2,
+#res-pub-button-3,
+#res-pub-button-4,
+#res-pub-button-5,
+#res-pub-button-6,
+#res-pub-button-7,
+#res-pub-button-8,
+#res-pub-button-9,
+#res-pub-button-10,
+#res-pub-button-11,
+#res-pub-button-12,
+#res-pub-button-13,
+#res-pub-button-14,
+#res-pub-button-15,
+#res-pub-button-16,
+#res-pub-button-17,
+#res-pub-button-18,
+#res-pub-button-19,
+#res-pub-button-20,
+#res-pub-button-21,
+#res-pub-button-22,
+#res-pub-button-23,
+#res-pub-button-24,
+#res-pub-button-25,
+#res-pub-button-26,
+#res-pub-button-27,
+#res-pub-button-28,
+#res-pub-button-29,
+#res-pub-button-30,
+#res-pub-button-31,
+#res-pub-button-32,
+#res-pub-button-33,
+#res-pub-button-34,
+#res-pub-button-35,
+#res-pub-button-36,
+#res-pub-button-37,
+#res-pub-button-38,
+#res-pub-button-39,
+#res-pub-button-40,
+#res-pub-button-41 {
+  width: 100%;
+  display: inline-flex;
+  justify-content: center;
+  border-radius: 100px;
+  background: #1E403B;
+  border: none;
+  position: relative;
+  padding-top: 5%;
+}
+
+#res-pub-button-1:hover,
+#res-pub-button-2:hover,
+#res-pub-button-3:hover,
+#res-pub-button-4:hover,
+#res-pub-button-5:hover,
+#res-pub-button-6:hover,
+#res-pub-button-7:hover,
+#res-pub-button-8:hover,
+#res-pub-button-9:hover,
+#res-pub-button-10:hover,
+#res-pub-button-11:hover,
+#res-pub-button-12:hover,
+#res-pub-button-13:hover,
+#res-pub-button-14:hover,
+#res-pub-button-15:hover,
+#res-pub-button-16:hover,
+#res-pub-button-17:hover,
+#res-pub-button-18:hover,
+#res-pub-button-19:hover,
+#res-pub-button-20:hover,
+#res-pub-button-21:hover,
+#res-pub-button-22:hover,
+#res-pub-button-23:hover,
+#res-pub-button-24:hover,
+#res-pub-button-25:hover,
+#res-pub-button-26:hover,
+#res-pub-button-27:hover,
+#res-pub-button-28:hover,
+#res-pub-button-29:hover,
+#res-pub-button-30:hover,
+#res-pub-button-31:hover,
+#res-pub-button-32:hover,
+#res-pub-button-33:hover,
+#res-pub-button-34:hover,
+#res-pub-button-35:hover,
+#res-pub-button-36:hover,
+#res-pub-button-37:hover,
+#res-pub-button-38:hover,
+#res-pub-button-39:hover,
+#res-pub-button-40:hover,
+#res-pub-button-41:hover {
+  background-color: #277b73;
+}
+
+#res-pub-button-1 h2,
+#res-pub-button-2 h2,
+#res-pub-button-3 h2,
+#res-pub-button-4 h2,
+#res-pub-button-5 h2,
+#res-pub-button-6 h2,
+#res-pub-button-7 h2,
+#res-pub-button-8 h2,
+#res-pub-button-9 h2,
+#res-pub-button-10 h2,
+#res-pub-button-11 h2,
+#res-pub-button-12 h2,
+#res-pub-button-13 h2,
+#res-pub-button-14 h2,
+#res-pub-button-15 h2,
+#res-pub-button-16 h2,
+#res-pub-button-17 h2,
+#res-pub-button-18 h2,
+#res-pub-button-19 h2,
+#res-pub-button-20 h2,
+#res-pub-button-21 h2,
+#res-pub-button-22 h2,
+#res-pub-button-23 h2,
+#res-pub-button-24 h2,
+#res-pub-button-25 h2,
+#res-pub-button-26 h2,
+#res-pub-button-27 h2,
+#res-pub-button-28 h2,
+#res-pub-button-29 h2,
+#res-pub-button-30 h2,
+#res-pub-button-31 h2,
+#res-pub-button-32 h2,
+#res-pub-button-33 h2,
+#res-pub-button-34 h2,
+#res-pub-button-35 h2,
+#res-pub-button-36 h2,
+#res-pub-button-37 h2,
+#res-pub-button-38 h2,
+#res-pub-button-39 h2,
+#res-pub-button-40 h2,
+#res-pub-button-41 h2 {
+  font-size: 15px;
+  position: relative;
 }

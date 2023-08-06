@@ -7,17 +7,22 @@
     <title>DLSU | Department of Electronics and Computer Engineering</title>
 
     <!-- ADD THESE LINES TO ALL NEW PAGES -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+        crossorigin="anonymous"></script>
     <link rel="stylesheet" href="./css/navbar.css">
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
     <!-- ADD THESE LINES TO ALL NEW PAGES -->
 
     <link rel="stylesheet" href="./css/faculty-admin.css">
-    <script type="text/javascript" src="./js/index.js"></script>
+    <script type="text/javascript" src="./js/faculty-admin.js"></script>
 </head>
 
 <body>
@@ -44,37 +49,79 @@
             <div class="row">
                 <div class="col">
                     <div class="card" style="width: 18rem;">
-                        <img class="card-img-top" src="./img/faculty-admin/engpakzad.jpg" alt="Card image cap">
+                        <img class="card-img-top" src="./img/faculty-admin/engpakzad.jpg" alt="Card image cap"
+                            id="faculty-image">
                         <div class="card-body">
                             <h5 class="faculty-admin-card-title">Engr. Armie Pakzad</h5>
                             <p class="faculty-admin-card-text">CPE Coordinator</p>
+                            <button type="button" class="btn btn-success" id="res-pub-button-1"
+                                onclick="toggleContent(1)">Research and Publications
+                            </button>
+                            <p class="faculty-admin-card-text text-container" id="faculty-text-1">
+                                Research Interest: Television Whitespace, Reinforcement Learning, Microcontroller
+                                <br><br>
+                                <a href="https://scholar.google.com.ph/citations?hl=en&user=6dj-o7QAAAAJ">Google Scholar</a>
+                                <br>
+                                <a href="https://www.researchgate.net/profile/Armie-Pakzad">Research Gate</a>
+                            </p>
                         </div>
                     </div>
                 </div>
+
                 <div class="col">
                     <div class="card" style="width: 18rem;">
-                        <img class="card-img-top" src="./img/faculty-admin/docbandala.jpg" alt="Card image cap">
+                        <img class="card-img-top" src="./img/faculty-admin/docbandala.jpg" alt="Card image cap"
+                            id="faculty-image">
                         <div class="card-body">
                             <h5 class="faculty-admin-card-title">Dr. Argel Bandala</h5>
                             <p class="faculty-admin-card-text">Department Chairperson</p>
+                            <button type="button" class="btn btn-success" id="res-pub-button-2"
+                                onclick="toggleContent(2)">Research and Publications
+                            </button>
+                            <p class="faculty-admin-card-text text-container" id="faculty-text-2">
+                                Research Interest: Swarm Robotics, Unmanned Aerial Vehicles, Vision System
+                                <br><br>
+                                <a href="https://scholar.google.com.ph/citations?user=kCbRXosAAAAJ&hl=en">Google Scholar</a>
+                                <br>
+                                <a href="https://www.researchgate.net/profile/Argel-Bandala-2">Research Gate</a>
+                            </p>
                         </div>
                     </div>
                 </div>
+
                 <div class="col">
                     <div class="card" style="width: 18rem;">
-                        <img class="card-img-top" src="./img/faculty-admin/engillahi.jpg" alt="Card image cap">
+                        <img class="card-img-top" src="./img/faculty-admin/engillahi.jpg" alt="Card image cap"
+                            id="faculty-image">
                         <div class="card-body">
                             <h5 class="faculty-admin-card-title">Engr. Ana Illahi</h5>
                             <p class="faculty-admin-card-text">Vice Chairperson</p>
+                            <button type="button" class="btn btn-success" id="res-pub-button-3"
+                                onclick="toggleContent(3)">Research and Publications
+                            </button>
+                            <p class="faculty-admin-card-text text-container" id="faculty-text-3">
+                                Research Interest: Intelligent Systems, Image Processing, Internet of Things
+                                <br><br>
+                                <a href="https://scholar.google.com/citations?user=DpDAbk0AAAAJ&hl=en&oi=ao">Google Scholar</a>
+                                <br>
+                                <a href="https://www.researchgate.net/profile/Ana-Antoniette-Illahi">Research Gate</a>
+                            </p>
                         </div>
                     </div>
                 </div>
                 <div class="col">
                     <div class="card" style="width: 18rem;">
-                        <img class="card-img-top" src="./img/faculty-admin/msalo.jpg" alt="Card image cap">
+                        <img class="card-img-top" src="./img/faculty-admin/msalo.jpg" alt="Card image cap"
+                            id="faculty-image">
                         <div class="card-body">
                             <h5 class="faculty-admin-card-title">Ms. Ma. Rowena Alo</h5>
                             <p class="faculty-admin-card-text">Department Secretary</p>
+                            <button type="button" class="btn btn-success" id="res-pub-button-4"
+                                onclick="toggleContent(4)">Research and Publications
+                            </button>
+                            <p class="faculty-admin-card-text text-container" id="faculty-text-4">
+                                No Research and Publications
+                            </p>
                         </div>
                     </div>
                 </div>
@@ -91,79 +138,163 @@
             <div class="row">
                 <div class="col">
                     <div class="card" style="width: 18rem;">
-                        <img class="card-img-top" src="./img/faculty-staff/docsybingco.jpg" alt="Card image cap">
+                        <img class="card-img-top" src="./img/faculty-staff/docsybingco.jpg" alt="Card image cap"
+                            id="faculty-image">
                         <div class="card-body">
                             <h5 class="faculty-admin-card-title">Dr. Edwin Sybingco</h5>
                             <p class="faculty-admin-card-text">Full Professor</p>
+                            <button type="button" class="btn btn-success" id="res-pub-button-5"
+                                onclick="toggleContent(5)">Research and Publications
+                            </button>
+                            <p class="faculty-admin-card-text text-container" id="faculty-text-5">
+                                Research Interest: Signal Processing, Machine Vision, Mobile Application, Data Mining
+                                <br><br>
+                                <a href="https://scholar.google.com.ph/citations?hl=en&user=F0St-A0AAAAJ">Google Scholar</a>
+                                <br>
+                                <a href="https://www.researchgate.net/profile/Edwin-Sybingco">Research Gate</a>
+                            </p>
                         </div>
                     </div>
                 </div>
                 <div class="col">
                     <div class="card" style="width: 18rem;">
-                        <img class="card-img-top" src="./img/faculty-staff/docafrica.jpg" alt="Card image cap">
+                        <img class="card-img-top" src="./img/faculty-staff/docafrica.jpg" alt="Card image cap"
+                            id="faculty-image">
                         <div class="card-body">
                             <h5 class="faculty-admin-card-title">Dr. Aaron Africa</h5>
                             <p class="faculty-admin-card-text">Full Professor</p>
+                            <button type="button" class="btn btn-success" id="res-pub-button-6"
+                                onclick="toggleContent(6)">Research and Publications
+                            </button>
+                            <p class="faculty-admin-card-text text-container" id="faculty-text-6">
+                                Research Interest: Control Systems, Optimization, Information System
+                                <br><br>
+                                <a href="https://scholar.google.com/citations?user=VgwsksUAAAAJ&hl=en&oi=ao">Google Scholar</a>
+                                <br>
+                                <a href="https://www.researchgate.net/profile/Aaron-Don-Africa">Research Gate</a>
+                            </p>
                         </div>
                     </div>
                 </div>
                 <div class="col">
                     <div class="card" style="width: 18rem;">
-                        <img class="card-img-top" src="./img/faculty-staff/docmaterum.jpg" alt="Card image cap">
+                        <img class="card-img-top" src="./img/faculty-staff/docmaterum.jpg" alt="Card image cap"
+                            id="faculty-image">
                         <div class="card-body">
                             <h5 class="faculty-admin-card-title">Dr. Lawrence Materum</h5>
                             <p class="faculty-admin-card-text">Full Professor</p>
+                            <button type="button" class="btn btn-success" id="res-pub-button-7"
+                                onclick="toggleContent(7)">Research and Publications
+                            </button>
+                            <p class="faculty-admin-card-text text-container" id="faculty-text-7">
+                                Research Interest: Radio Channel Measurements and Characterization, Telecommunications Engineering
+                                <br><br>
+                                <a href="https://scholar.google.com/citations?user=301x-tQAAAAJ&hl=en">Google Scholar</a>
+                            </p>
                         </div>
                     </div>
                 </div>
                 <div class="col">
                     <div class="card" style="width: 18rem;">
-                        <img class="card-img-top" src="./img/faculty-staff/docmappatao.jpg" alt="Card image cap">
+                        <img class="card-img-top" src="./img/faculty-staff/docmappatao.jpg" alt="Card image cap"
+                            id="faculty-image">
                         <div class="card-body">
                             <h5 class="faculty-admin-card-title">Dr. Gerino Mappatao</h5>
                             <p class="faculty-admin-card-text">Full Professor</p>
+                            <button type="button" class="btn btn-success" id="res-pub-button-8"
+                                onclick="toggleContent(8)">Research and Publications
+                            </button>
+                            <p class="faculty-admin-card-text text-container" id="faculty-text-8">
+                                Research Interest: Communication Systems, Broadcast Engineering, Antenna Design
+                                <br><br>
+                                <a href="https://www.researchgate.net/profile/Gerino-Mappatao-2">Research Gate</a>
+                            </p>
                         </div>
                     </div>
                 </div>
             </div>
-            
+
 
 
             <div class="other-row">
                 <div class="row">
                     <div class="col">
                         <div class="card" style="width: 18rem;">
-                            <img class="card-img-top" src="./img/faculty-staff/docgustilo.jpg" alt="Card image cap">
+                            <img class="card-img-top" src="./img/faculty-staff/docgustilo.jpg" alt="Card image cap"
+                                id="faculty-image">
                             <div class="card-body">
                                 <h5 class="faculty-admin-card-title">Dr. Reggie Gustilo</h5>
                                 <p class="faculty-admin-card-text">Full Professor</p>
+                                <button type="button" class="btn btn-success" id="res-pub-button-9"
+                                    onclick="toggleContent(9)">Research and Publications
+                                </button>
+                                <p class="faculty-admin-card-text text-container" id="faculty-text-9">
+                                    Research Interest: Machine Vision, Signal Processing, Behavioral Pattern Analysis, Wireless Communication, Intelligent System
+                                    <br><br>
+                                    <a href="https://scholar.google.com.ph/citations?user=emZSTMMAAAAJ&hl=en">Google Scholar</a>
+                                    <br>
+                                    <a href="https://www.researchgate.net/profile/Reggie-Gustilo">Research Gate</a>
+                                </p>
                             </div>
                         </div>
                     </div>
                     <div class="col">
                         <div class="card" style="width: 18rem;">
-                            <img class="card-img-top" src="./img/faculty-staff/docdulay.jpg" alt="Card image cap">
+                            <img class="card-img-top" src="./img/faculty-staff/docdulay.jpg" alt="Card image cap"
+                                id="faculty-image">
                             <div class="card-body">
                                 <h5 class="faculty-admin-card-title">Dr. Ann Dulay</h5>
                                 <p class="faculty-admin-card-text">Associate Professor</p>
+                                <button type="button" class="btn btn-success" id="res-pub-button-10"
+                                    onclick="toggleContent(10)">Research and Publications
+                                </button>
+                                <p class="faculty-admin-card-text text-container" id="faculty-text-10">
+                                    Research Interest: Power Line Communications, IC Design, Power Systems, Embedded System
+                                    <br><br>
+                                    <a href="https://scholar.google.com/citations?user=eX5ToBoAAAAJ&hl=en&oi=ao">Google Scholar</a>
+                                    <br>
+                                    <a href="https://www.researchgate.net/profile/Ann_Dulay/publications?sorting=recentlyAdded">Research Gate</a>
+                                </p>
                             </div>
                         </div>
                     </div>
                     <div class="col">
                         <div class="card" style="width: 18rem;">
-                            <img class="card-img-top" src="./img/faculty-staff/docarada.jpg" alt="Card image cap">
+                            <img class="card-img-top" src="./img/faculty-staff/docarada.jpg" alt="Card image cap"
+                                id="faculty-image">
                             <div class="card-body">
                                 <h5 class="faculty-admin-card-title">Dr. Gerald Arada</h5>
                                 <p class="faculty-admin-card-text">Associate Professor</p>
+                                <button type="button" class="btn btn-success" id="res-pub-button-11"
+                                    onclick="toggleContent(11)">Research and Publications
+                                </button>
+                                <p class="faculty-admin-card-text text-container" id="faculty-text-11">
+                                    Research Interest: Communication Systems, OFDM, Wireless Technology
+                                    <br><br>
+                                    <a href="https://scholar.google.com.ph/citations?user=KIV-6SIAAAAJ&hl=en">Google Scholar</a>
+                                    <br>
+                                    <a href="https://www.researchgate.net/profile/Gerald-Arada">Research Gate</a>
+                                </p>
                             </div>
                         </div>
                     </div>
                     <div class="col">
                         <div class="card" style="width: 18rem;">
-                            <img class="card-img-top" src="./img/faculty-staff/docmanzano.jpg" alt="Card image cap">
+                            <img class="card-img-top" src="./img/faculty-staff/docmanzano.jpg" alt="Card image cap"
+                                id="faculty-image">
                             <div class="card-body">
                                 <h5 class="faculty-admin-card-title">Dr. Enrique Manzano</h5>
                                 <p class="faculty-admin-card-text">Associate Professor</p>
+                                <button type="button" class="btn btn-success" id="res-pub-button-12"
+                                    onclick="toggleContent(12)">Research and Publications
+                                </button>
+                                <p class="faculty-admin-card-text text-container" id="faculty-text-12">
+                                    Research Interest: DSP, Solid State Physics, Conducting Polymers, Instrumentation, Energy
+                                    <br><br>
+                                    <a href="https://scholar.google.com/citations?user=LYYAX_cAAAAJ&hl=en">Google Scholar</a>
+                                    <br>
+                                    <a href="https://www.researchgate.net/profile/Enrique-Manzano">Research Gate</a>
+                                </p>
                             </div>
                         </div>
                     </div>
@@ -176,37 +307,79 @@
                 <div class="row">
                     <div class="col">
                         <div class="card" style="width: 18rem;">
-                            <img class="card-img-top" src="./img/faculty-staff/doccabatuan.jpg" alt="Card image cap">
+                            <img class="card-img-top" src="./img/faculty-staff/doccabatuan.jpg" alt="Card image cap"
+                                id="faculty-image">
                             <div class="card-body">
                                 <h5 class="faculty-admin-card-title">Dr. Melvin Cabatuan</h5>
                                 <p class="faculty-admin-card-text">Associate Professor</p>
+                                <button type="button" class="btn btn-success" id="res-pub-button-13"
+                                    onclick="toggleContent(13)">Research and Publications
+                                </button>
+                                <p class="faculty-admin-card-text text-container" id="faculty-text-13">
+                                    Research Interest: Computer Vision, Image Processing, Computational Intelligence, Algorithm Development
+                                    <br><br>
+                                    <a href="https://scholar.google.com/citations?user=5zA75_oAAAAJ&hl=en">Google Scholar</a>
+                                    <br>
+                                    <a href="https://www.researchgate.net/profile/Melvin-Cabatuan">Research Gate</a>
+                                </p>
                             </div>
                         </div>
                     </div>
                     <div class="col">
                         <div class="card" style="width: 18rem;">
-                            <img class="card-img-top" src="./img/faculty-staff/docochotorena.jpg" alt="Card image cap">
+                            <img class="card-img-top" src="./img/faculty-staff/docochotorena.jpg" alt="Card image cap"
+                                id="faculty-image">
                             <div class="card-body">
                                 <h5 class="faculty-admin-card-title">Dr. Carlo Ochotorena</h5>
                                 <p class="faculty-admin-card-text">Associate Professor</p>
+                                <button type="button" class="btn btn-success" id="res-pub-button-14"
+                                    onclick="toggleContent(14)">Research and Publications
+                                </button>
+                                <p class="faculty-admin-card-text text-container" id="faculty-text-14">
+                                    Research Interest: Image Processing, Computational Photography, Sparse Representation
+                                    <br><br>
+                                    <a href="https://scholar.google.com/citations?user=Utn2D2YAAAAJ&hl=en">Google Scholar</a>
+                                    <br>
+                                    <a href="https://www.researchgate.net/profile/Carlo-Noel-Ochotorena">Research Gate</a>
+                                </p>
                             </div>
                         </div>
                     </div>
                     <div class="col">
                         <div class="card" style="width: 18rem;">
-                            <img class="card-img-top" src="./img/faculty-staff/docalipio.jpg" alt="Card image cap">
+                            <img class="card-img-top" src="./img/faculty-staff/docalipio.jpg" alt="Card image cap"
+                                id="faculty-image">
                             <div class="card-body">
                                 <h5 class="faculty-admin-card-title">Dr. Melchizedek Alipio</h5>
                                 <p class="faculty-admin-card-text">Associate Professor</p>
+                                <button type="button" class="btn btn-success" id="res-pub-button-15"
+                                    onclick="toggleContent(15)">Research and Publications
+                                </button>
+                                <p class="faculty-admin-card-text text-container" id="faculty-text-15">
+                                    Research Interest: Wireless Sensor Networks, Computer Networks, Internet of Things
+                                    <br><br>
+                                    <a href="https://www.researchgate.net/profile/Melchizedek-Alipio-2">Research Gate</a>
+                                </p>
                             </div>
                         </div>
                     </div>
                     <div class="col">
                         <div class="card" style="width: 18rem;">
-                            <img class="card-img-top" src="./img/faculty-staff/docllorente.jpg" alt="Card image cap">
+                            <img class="card-img-top" src="./img/faculty-staff/docllorente.jpg" alt="Card image cap"
+                                id="faculty-image">
                             <div class="card-body">
                                 <h5 class="faculty-admin-card-title">Dr. Cesar Llorente</h5>
                                 <p class="faculty-admin-card-text">Adjunct Professor</p>
+                                <button type="button" class="btn btn-success" id="res-pub-button-16"
+                                    onclick="toggleContent(16)">Research and Publications
+                                </button>
+                                <p class="faculty-admin-card-text text-container" id="faculty-text-16">
+                                    Specialization: Computational Intelligence, Embedded Systems, Computer Architecture, Computer Vision
+                                    <br><br>
+                                    <a href="https://scholar.google.com.ph/citations?user=X90e5NIAAAAJ&hl=en">Google Scholar</a>
+                                    <br>
+                                    <a href="https://www.researchgate.net/profile/Cesar_Llorente3">Research Gate</a>
+                                </p>
                             </div>
                         </div>
                     </div>
@@ -219,37 +392,77 @@
                 <div class="row">
                     <div class="col">
                         <div class="card" style="width: 18rem;">
-                            <img class="card-img-top" src="./img/faculty-staff/docnavea.jpg" alt="Card image cap">
+                            <img class="card-img-top" src="./img/faculty-staff/docnavea.jpg" alt="Card image cap"
+                                id="faculty-image">
                             <div class="card-body">
                                 <h5 class="faculty-admin-card-title">Dr. Roy Navea</h5>
                                 <p class="faculty-admin-card-text">Associate Professor</p>
+                                <button type="button" class="btn btn-success" id="res-pub-button-17"
+                                    onclick="toggleContent(17)">Research and Publications
+                                </button>
+                                <p class="faculty-admin-card-text text-container" id="faculty-text-17">
+                                    Research Interest: Television Whitespace, Reinforcement Learning, Microcontroller
+                                    <br><br>
+                                    <a href="https://scholar.google.com.ph/citations?user=X90e5NIAAAAJ&hl=en">Google Scholar</a>
+                                    <br>
+                                    <a href="https://www.researchgate.net/profile/Cesar_Llorente3">Research Gate</a>
+                                </p>
                             </div>
                         </div>
                     </div>
                     <div class="col">
                         <div class="card" style="width: 18rem;">
-                            <img class="card-img-top" src="./img/faculty-staff/docyap.jpg" alt="Card image cap">
+                            <img class="card-img-top" src="./img/faculty-staff/docyap.jpg" alt="Card image cap"
+                                id="faculty-image">
                             <div class="card-body">
                                 <h5 class="faculty-admin-card-title">Dr. Roderick Yap</h5>
                                 <p class="faculty-admin-card-text">Associate Professor</p>
+                                <button type="button" class="btn btn-success" id="res-pub-button-18"
+                                    onclick="toggleContent(18)">Research and Publications
+                                </button>
+                                <p class="faculty-admin-card-text text-container" id="faculty-text-18">
+                                    Research Interest: Microelectronics, VLSI Design
+                                    <br><br>
+                                    <a href="https://scholar.google.com/citations?user=4rvLg_MAAAAJ&hl=en">Google Scholar</a>
+                                    <br>
+                                    <a href="https://www.researchgate.net/profile/Roderick-Yyap">Research Gate</a>
+                                </p>
                             </div>
                         </div>
                     </div>
                     <div class="col">
                         <div class="card" style="width: 18rem;">
-                            <img class="card-img-top" src="./img/faculty-staff/engcatalan.jpg" alt="Card image cap">
+                            <img class="card-img-top" src="./img/faculty-staff/engcatalan.jpg" alt="Card image cap"
+                                id="faculty-image">
                             <div class="card-body">
                                 <h5 class="faculty-admin-card-title">Engr. Jose Catalan</h5>
                                 <p class="faculty-admin-card-text">Assistant Professor</p>
+                                <button type="button" class="btn btn-success" id="res-pub-button-19"
+                                    onclick="toggleContent(19)">Research and Publications
+                                </button>
+                                <p class="faculty-admin-card-text text-container" id="faculty-text-19">
+                                    No Research and Publications
+                                </p>
                             </div>
                         </div>
                     </div>
                     <div class="col">
                         <div class="card" style="width: 18rem;">
-                            <img class="card-img-top" src="./img/faculty-staff/engroque.jpg" alt="Card image cap">
+                            <img class="card-img-top" src="./img/faculty-staff/engroque.jpg" alt="Card image cap"
+                                id="faculty-image">
                             <div class="card-body">
                                 <h5 class="faculty-admin-card-title">Engr. Antonette Roque</h5>
                                 <p class="faculty-admin-card-text">Assistant Professor</p>
+                                <button type="button" class="btn btn-success" id="res-pub-button-20"
+                                    onclick="toggleContent(20)">Research and Publications
+                                </button>
+                                <p class="faculty-admin-card-text text-container" id="faculty-text-20">
+                                    Research Interest: Digital Systems Design, Networking and Interfacing, Database Systems, Electronic Circuit Design, Information and Communications Technology
+                                    <br><br>
+                                    <a href="https://scholar.google.com.ph/citations?user=IIn2u7gAAAAJ&hl=en">Google Scholar</a>
+                                    <br>
+                                    <a href="https://www.researchgate.net/profile/Maria-Roque-3">Research Gate</a>
+                                </p>
                             </div>
                         </div>
                     </div>
@@ -262,37 +475,65 @@
                 <div class="row">
                     <div class="col">
                         <div class="card" style="width: 18rem;">
-                            <img class="card-img-top" src="./img/faculty-staff/docbok.jpg" alt="Card image cap">
+                            <img class="card-img-top" src="./img/faculty-staff/docbok.jpg" alt="Card image cap"
+                                id="faculty-image">
                             <div class="card-body">
                                 <h5 class="faculty-admin-card-title">Dr. Jay Del Rosario</h5>
                                 <p class="faculty-admin-card-text">Associate Professor</p>
+                                <button type="button" class="btn btn-success" id="res-pub-button-21"
+                                    onclick="toggleContent(21)">Research and Publications
+                                </button>
+                                <p class="faculty-admin-card-text text-container" id="faculty-text-21">
+                                    Research Interest: Television Whitespace, Reinforcement Learning, Microcontroller
+                                </p>
                             </div>
                         </div>
                     </div>
                     <div class="col">
                         <div class="card" style="width: 18rem;">
-                            <img class="card-img-top" src="./img/faculty-staff/engabuan.jpg" alt="Card image cap">
+                            <img class="card-img-top" src="./img/faculty-staff/engabuan.jpg" alt="Card image cap"
+                                id="faculty-image">
                             <div class="card-body">
                                 <h5 class="faculty-admin-card-title">Engr. Donabel Abuan</h5>
                                 <p class="faculty-admin-card-text">Assistant Professor</p>
+                                <button type="button" class="btn btn-success" id="res-pub-button-22"
+                                    onclick="toggleContent(22)">Research and Publications
+                                </button>
+                                <p class="faculty-admin-card-text text-container" id="faculty-text-22">
+                                    Research Interest: Television Whitespace, Reinforcement Learning, Microcontroller
+                                </p>
                             </div>
                         </div>
                     </div>
                     <div class="col">
                         <div class="card" style="width: 18rem;">
-                            <img class="card-img-top" src="./img/faculty-staff/engambata.jpg" alt="Card image cap">
+                            <img class="card-img-top" src="./img/faculty-staff/engambata.jpg" alt="Card image cap"
+                                id="faculty-image">
                             <div class="card-body">
                                 <h5 class="faculty-admin-card-title">Engr. Leonard Ambata</h5>
                                 <p class="faculty-admin-card-text">Assistant Professor</p>
+                                <button type="button" class="btn btn-success" id="res-pub-button-23"
+                                    onclick="toggleContent(23)">Research and Publications
+                                </button>
+                                <p class="faculty-admin-card-text text-container" id="faculty-text-23">
+                                    Research Interest: Television Whitespace, Reinforcement Learning, Microcontroller
+                                </p>
                             </div>
                         </div>
                     </div>
                     <div class="col">
                         <div class="card" style="width: 18rem;">
-                            <img class="card-img-top" src="./img/faculty-staff/engabad.jpg" alt="Card image cap">
+                            <img class="card-img-top" src="./img/faculty-staff/engabad.jpg" alt="Card image cap"
+                                id="faculty-image">
                             <div class="card-body">
                                 <h5 class="faculty-admin-card-title">Engr. Alexander Abad</h5>
                                 <p class="faculty-admin-card-text">Assistant Professor</p>
+                                <button type="button" class="btn btn-success" id="res-pub-button-24"
+                                    onclick="toggleContent(24)">Research and Publications
+                                </button>
+                                <p class="faculty-admin-card-text text-container" id="faculty-text-24">
+                                    Research Interest: Television Whitespace, Reinforcement Learning, Microcontroller
+                                </p>
                             </div>
                         </div>
                     </div>
@@ -305,37 +546,65 @@
                 <div class="row">
                     <div class="col">
                         <div class="card" style="width: 18rem;">
-                            <img class="card-img-top" src="./img/faculty-staff/engmaningo.jpg" alt="Card image cap">
+                            <img class="card-img-top" src="./img/faculty-staff/engmaningo.jpg" alt="Card image cap"
+                                id="faculty-image">
                             <div class="card-body">
                                 <h5 class="faculty-admin-card-title">Engr. Jose Maningo</h5>
                                 <p class="faculty-admin-card-text">Assistant Professor</p>
+                                <button type="button" class="btn btn-success" id="res-pub-button-25"
+                                    onclick="toggleContent(25)">Research and Publications
+                                </button>
+                                <p class="faculty-admin-card-text text-container" id="faculty-text-25">
+                                    Research Interest: Television Whitespace, Reinforcement Learning, Microcontroller
+                                </p>
                             </div>
                         </div>
                     </div>
                     <div class="col">
                         <div class="card" style="width: 18rem;">
-                            <img class="card-img-top" src="./img/faculty-staff/engjose.jpg" alt="Card image cap">
+                            <img class="card-img-top" src="./img/faculty-staff/engjose.jpg" alt="Card image cap"
+                                id="faculty-image">
                             <div class="card-body">
                                 <h5 class="faculty-admin-card-title">Engr. John Anthony Jose</h5>
                                 <p class="faculty-admin-card-text">Assistant Professor</p>
+                                <button type="button" class="btn btn-success" id="res-pub-button-26"
+                                    onclick="toggleContent(26)">Research and Publications
+                                </button>
+                                <p class="faculty-admin-card-text text-container" id="faculty-text-26">
+                                    Research Interest: Television Whitespace, Reinforcement Learning, Microcontroller
+                                </p>
                             </div>
                         </div>
                     </div>
                     <div class="col">
                         <div class="card" style="width: 18rem;">
-                            <img class="card-img-top" src="./img/faculty-staff/docmagsino.jpg" alt="Card image cap">
+                            <img class="card-img-top" src="./img/faculty-staff/docmagsino.jpg" alt="Card image cap"
+                                id="faculty-image">
                             <div class="card-body">
                                 <h5 class="faculty-admin-card-title">Engr. Elmer Magsino</h5>
                                 <p class="faculty-admin-card-text">Assistant Professor</p>
+                                <button type="button" class="btn btn-success" id="res-pub-button-27"
+                                    onclick="toggleContent(27)">Research and Publications
+                                </button>
+                                <p class="faculty-admin-card-text text-container" id="faculty-text-27">
+                                    Research Interest: Television Whitespace, Reinforcement Learning, Microcontroller
+                                </p>
                             </div>
                         </div>
                     </div>
                     <div class="col">
                         <div class="card" style="width: 18rem;">
-                            <img class="card-img-top" src="./img/faculty-staff/engtorregoza.jpg" alt="Card image cap">
+                            <img class="card-img-top" src="./img/faculty-staff/engtorregoza.jpg" alt="Card image cap"
+                                id="faculty-image">
                             <div class="card-body">
                                 <h5 class="faculty-admin-card-title">Engr. Mark Torregoza</h5>
                                 <p class="faculty-admin-card-text">Assitant Prof. Lecturer</p>
+                                <button type="button" class="btn btn-success" id="res-pub-button-28"
+                                    onclick="toggleContent(28)">Research and Publications
+                                </button>
+                                <p class="faculty-admin-card-text text-container" id="faculty-text-28">
+                                    Research Interest: Television Whitespace, Reinforcement Learning, Microcontroller
+                                </p>
                             </div>
                         </div>
                     </div>
@@ -348,37 +617,65 @@
                 <div class="row">
                     <div class="col">
                         <div class="card" style="width: 18rem;">
-                            <img class="card-img-top" src="./img/faculty-staff/enggraza.jpg" alt="Card image cap">
+                            <img class="card-img-top" src="./img/faculty-staff/enggraza.jpg" alt="Card image cap"
+                                id="faculty-image">
                             <div class="card-body">
                                 <h5 class="faculty-admin-card-title">Engr. Marvil Graza</h5>
                                 <p class="faculty-admin-card-text">Assistant Prof. Lecturer</p>
+                                <button type="button" class="btn btn-success" id="res-pub-button-29"
+                                    onclick="toggleContent(29)">Research and Publications
+                                </button>
+                                <p class="faculty-admin-card-text text-container" id="faculty-text-29">
+                                    Research Interest: Television Whitespace, Reinforcement Learning, Microcontroller
+                                </p>
                             </div>
                         </div>
                     </div>
                     <div class="col">
                         <div class="card" style="width: 18rem;">
-                            <img class="card-img-top" src="./img/faculty-staff/englim" alt="Card image cap">
+                            <img class="card-img-top" src="./img/faculty-staff/englim" alt="Card image cap"
+                                id="faculty-image">
                             <div class="card-body">
                                 <h5 class="faculty-admin-card-title">Engr. Gian Carlo Lim</h5>
                                 <p class="faculty-admin-card-text">Assistant Prof. Lecturerr</p>
+                                <button type="button" class="btn btn-success" id="res-pub-button-30"
+                                    onclick="toggleContent(30)">Research and Publications
+                                </button>
+                                <p class="faculty-admin-card-text text-container" id="faculty-text-30">
+                                    Research Interest: Television Whitespace, Reinforcement Learning, Microcontroller
+                                </p>
                             </div>
                         </div>
                     </div>
                     <div class="col">
                         <div class="card" style="width: 18rem;">
-                            <img class="card-img-top" src="./img/faculty-staff/engbucao.jpg" alt="Card image cap">
+                            <img class="card-img-top" src="./img/faculty-staff/engbucao.jpg" alt="Card image cap"
+                                id="faculty-image">
                             <div class="card-body">
                                 <h5 class="faculty-admin-card-title">Engr. Blanca Bucao</h5>
                                 <p class="faculty-admin-card-text">Assistant Prof. Lecturer</p>
+                                <button type="button" class="btn btn-success" id="res-pub-button-31"
+                                    onclick="toggleContent(31)">Research and Publications
+                                </button>
+                                <p class="faculty-admin-card-text text-container" id="faculty-text-31">
+                                    Research Interest: Television Whitespace, Reinforcement Learning, Microcontroller
+                                </p>
                             </div>
                         </div>
                     </div>
                     <div class="col">
                         <div class="card" style="width: 18rem;">
-                            <img class="card-img-top" src="./img/faculty-staff/engdupo.jpg" alt="Card image cap">
+                            <img class="card-img-top" src="./img/faculty-staff/engdupo.jpg" alt="Card image cap"
+                                id="faculty-image">
                             <div class="card-body">
                                 <h5 class="faculty-admin-card-title">Engr. Voltaire Dupo</h5>
                                 <p class="faculty-admin-card-text">Assistant Prof. Lecturer</p>
+                                <button type="button" class="btn btn-success" id="res-pub-button-32"
+                                    onclick="toggleContent(32)">Research and Publications
+                                </button>
+                                <p class="faculty-admin-card-text text-container" id="faculty-text-32">
+                                    Research Interest: Television Whitespace, Reinforcement Learning, Microcontroller
+                                </p>
                             </div>
                         </div>
                     </div>
@@ -391,37 +688,65 @@
                 <div class="row">
                     <div class="col">
                         <div class="card" style="width: 18rem;">
-                            <img class="card-img-top" src="./img/faculty-staff/engmacadaeg.jpg" alt="Card image cap">
+                            <img class="card-img-top" src="./img/faculty-staff/engmacadaeg.jpg" alt="Card image cap"
+                                id="faculty-image">
                             <div class="card-body">
                                 <h5 class="faculty-admin-card-title">Eng. Aurenilo Macadaeg</h5>
                                 <p class="faculty-admin-card-text">Academic Service Faculty</p>
+                                <button type="button" class="btn btn-success" id="res-pub-button-34"
+                                    onclick="toggleContent(34)">Research and Publications
+                                </button>
+                                <p class="faculty-admin-card-text text-container" id="faculty-text-34">
+                                    Research Interest: Television Whitespace, Reinforcement Learning, Microcontroller
+                                </p>
                             </div>
                         </div>
                     </div>
                     <div class="col">
                         <div class="card" style="width: 18rem;">
-                            <img class="card-img-top" src="./img/faculty-staff/sirgomez.jpg" alt="Card image cap">
+                            <img class="card-img-top" src="./img/faculty-staff/sirgomez.jpg" alt="Card image cap"
+                                id="faculty-image">
                             <div class="card-body">
                                 <h5 class="faculty-admin-card-title">Mr. Rodolfo Gomez</h5>
                                 <p class="faculty-admin-card-text">Laboratory Technician</p>
+                                <button type="button" class="btn btn-success" id="res-pub-button-35"
+                                    onclick="toggleContent(35)">Research and Publications
+                                </button>
+                                <p class="faculty-admin-card-text text-container" id="faculty-text-35">
+                                    Research Interest: Television Whitespace, Reinforcement Learning, Microcontroller
+                                </p>
                             </div>
                         </div>
                     </div>
                     <div class="col">
                         <div class="card" style="width: 18rem;">
-                            <img class="card-img-top" src="./img/faculty-staff/sirborlagdan.jpg" alt="Card image cap">
+                            <img class="card-img-top" src="./img/faculty-staff/sirborlagdan.jpg" alt="Card image cap"
+                                id="faculty-image">
                             <div class="card-body">
                                 <h5 class="faculty-admin-card-title">Mr. Rommel Borlagdan</h5>
                                 <p class="faculty-admin-card-text">Laboratory Technician</p>
+                                <button type="button" class="btn btn-success" id="res-pub-button-36"
+                                    onclick="toggleContent(36)">Research and Publications
+                                </button>
+                                <p class="faculty-admin-card-text text-container" id="faculty-text-36">
+                                    Research Interest: Television Whitespace, Reinforcement Learning, Microcontroller
+                                </p>
                             </div>
                         </div>
                     </div>
                     <div class="col">
                         <div class="card" style="width: 18rem;">
-                            <img class="card-img-top" src="./img/faculty-staff/sircasiano.jpg" alt="Card image cap">
+                            <img class="card-img-top" src="./img/faculty-staff/sircasiano.jpg" alt="Card image cap"
+                                id="faculty-image">
                             <div class="card-body">
                                 <h5 class="faculty-admin-card-title">Mr. Roland Casiano</h5>
                                 <p class="faculty-admin-card-text">Laboratory Technician</p>
+                                <button type="button" class="btn btn-success" id="res-pub-button-37"
+                                    onclick="toggleContent(37)">Research and Publications
+                                </button>
+                                <p class="faculty-admin-card-text text-container" id="faculty-text-37">
+                                    Research Interest: Television Whitespace, Reinforcement Learning, Microcontroller
+                                </p>
                             </div>
                         </div>
                     </div>
@@ -434,37 +759,65 @@
                 <div class="row">
                     <div class="col">
                         <div class="card" style="width: 18rem;">
-                            <img class="card-img-top" src="./img/faculty-staff/sirignacio.jpg" alt="Card image cap">
+                            <img class="card-img-top" src="./img/faculty-staff/sirignacio.jpg" alt="Card image cap"
+                                id="faculty-image">
                             <div class="card-body">
                                 <h5 class="faculty-admin-card-title">Mr. Ronald Ignacio</h5>
                                 <p class="faculty-admin-card-text">Laboratory Technician</p>
+                                <button type="button" class="btn btn-success" id="res-pub-button-38"
+                                    onclick="toggleContent(38)">Research and Publications
+                                </button>
+                                <p class="faculty-admin-card-text text-container" id="faculty-text-38">
+                                    Research Interest: Television Whitespace, Reinforcement Learning, Microcontroller
+                                </p>
                             </div>
                         </div>
                     </div>
                     <div class="col">
                         <div class="card" style="width: 18rem;">
-                            <img class="card-img-top" src="./img/faculty-staff/sireliquen.jpg" alt="Card image cap">
+                            <img class="card-img-top" src="./img/faculty-staff/sireliquen.jpg" alt="Card image cap"
+                                id="faculty-image">
                             <div class="card-body">
                                 <h5 class="faculty-admin-card-title">Mr. Engelbert Eliquen</h5>
                                 <p class="faculty-admin-card-text">Laboratory Technician</p>
+                                <button type="button" class="btn btn-success" id="res-pub-button-39"
+                                    onclick="toggleContent(39)">Research and Publications
+                                </button>
+                                <p class="faculty-admin-card-text text-container" id="faculty-text-39">
+                                    Research Interest: Television Whitespace, Reinforcement Learning, Microcontroller
+                                </p>
                             </div>
                         </div>
                     </div>
                     <div class="col">
                         <div class="card" style="width: 18rem;">
-                            <img class="card-img-top" src="./img/faculty-staff/sircordial.jpg" alt="Card image cap">
+                            <img class="card-img-top" src="./img/faculty-staff/sircordial.jpg" alt="Card image cap"
+                                id="faculty-image">
                             <div class="card-body">
                                 <h5 class="faculty-admin-card-title">Mr. Joseph Cordial</h5>
                                 <p class="faculty-admin-card-text">Laboratory Technician</p>
+                                <button type="button" class="btn btn-success" id="res-pub-button-40"
+                                    onclick="toggleContent(40)">Research and Publications
+                                </button>
+                                <p class="faculty-admin-card-text text-container" id="faculty-text-40">
+                                    Research Interest: Television Whitespace, Reinforcement Learning, Microcontroller
+                                </p>
                             </div>
                         </div>
                     </div>
                     <div class="col">
                         <div class="card" style="width: 18rem;">
-                            <img class="card-img-top" src="./img/faculty-staff/sirtala.jpg" alt="Card image cap">
+                            <img class="card-img-top" src="./img/faculty-staff/sirtala.jpg" alt="Card image cap"
+                                id="faculty-image">
                             <div class="card-body">
                                 <h5 class="faculty-admin-card-title">Mr. Ramel Tala</h5>
                                 <p class="faculty-admin-card-text">Laboratory Technician</p>
+                                <button type="button" class="btn btn-success" id="res-pub-button-41"
+                                    onclick="toggleContent(41)">Research and Publications
+                                </button>
+                                <p class="faculty-admin-card-text text-container" id="faculty-text-41">
+                                    Research Interest: Television Whitespace, Reinforcement Learning, Microcontroller
+                                </p>
                             </div>
                         </div>
                     </div>
