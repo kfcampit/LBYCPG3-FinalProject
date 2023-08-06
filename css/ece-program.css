@@ -101,6 +101,14 @@ body {
     background-size: cover;
 }
 
+.cpe-org {
+    width: 100%;
+    height: 40vh;
+    background-image: url(../img/ece-org.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
 #frame1-block {
     height: 150px;
     width: 230px;
@@ -556,6 +564,7 @@ tr {
 
 
 /* Licensure CSS */
+
 .green-bg {
     background-color: #1e403b;
 }
@@ -597,7 +606,8 @@ tr {
     margin-bottom: 50px;
 }
 
-.style-table-green-bg { /* header */
+.style-table-green-bg {
+    /* header */
     padding-left: 64px;
     padding-right: 64px;
     width: 100%;
@@ -608,7 +618,8 @@ tr {
     font-size: 20px;
 }
 
-.style-table-green-bg th{ /* header */
+.style-table-green-bg th {
+    /* header */
     padding-top: 30px;
     padding-bottom: 30px;
     border: 5px solid;
@@ -617,7 +628,8 @@ tr {
     color: black;
 }
 
-.style-table-beige-bg td{ /* cell */
+.style-table-beige-bg td {
+    /* cell */
     padding-top: 30px;
     padding-bottom: 30px;
     border: 5px solid;
@@ -625,7 +637,8 @@ tr {
     background-color: white;
 }
 
-.style-table-beige-bg { /* header */
+.style-table-beige-bg {
+    /* header */
     padding-left: 64px;
     padding-right: 64px;
     width: 100%;
@@ -636,7 +649,8 @@ tr {
     font-size: 20px;
 }
 
-.style-table-beige-bg th{ /* header */
+.style-table-beige-bg th {
+    /* header */
     padding-top: 30px;
     padding-bottom: 30px;
     border: 5px solid;
@@ -645,7 +659,8 @@ tr {
     color: white;
 }
 
-.style-table-green-bg td{ /* cell */
+.style-table-green-bg td {
+    /* cell */
     padding-top: 30px;
     padding-bottom: 30px;
     border: 5px solid;
@@ -653,16 +668,15 @@ tr {
     background-color: white;
 }
 
-#licensure-header{
+#licensure-header {
     position: relative;
     /* margin-top: 50px; */
     margin-bottom: 50px;
     padding-left: 64px;
     padding-right: 64px;
     width: 100%;
-    color:white;
-    text-align:left;
+    color: white;
+    text-align: left;
     font-size: 50px;
     font-weight: bold;
 }
-

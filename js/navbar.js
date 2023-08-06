@@ -16,8 +16,10 @@ document.write(
                         <a class='nav-link mx-2 dropdown-toggle' href='#' id='navbarDropdownMenuLink' role='button' data-bs-toggle='dropdown' aria-expanded='false'>About</a>
                         <ul class='dropdown-menu' aria-labelledby='navbarDropdownMenuLink'>
                             <li><a class='dropdown-item' href='./AboutUs.html'>About the Department</a></li>
-                            <li><a class='dropdown-item' href='#'>Community Engagement</a></li>
-                            <li><a class='dropdown-item' href='#'>Contact Us</a></li>
+                            <li><a class='dropdown-item' href='./community-engagement-linkages.html'>Community Engagement</a></li>
+                            <li><a class='dropdown-item' href='./contact-us.html'>Contact Us</a></li>
+                            <li><a class='dropdown-item' href='#'>Continuing Professional Development</a></li>
+                            <li><a class='dropdown-item' href='#'>Awards and Achievements</a></li>
                         </ul>
                     </li>
 
@@ -37,8 +39,10 @@ document.write(
                     <li class='nav-item dropdown'>
                         <a class='nav-link mx-2 dropdown-toggle' href='#' id='navbarDropdownMenuLink' role='button' data-bs-toggle='dropdown' aria-expanded='false'> Research </a>
                         <ul class='dropdown-menu' aria-labelledby='navbarDropdownMenuLink'>
-                            <li><a class='dropdown-item' href='#'>Thesis Archive</a></li>
+                            <li><a class='dropdown-item' href='./thesis-archive.html'>Thesis Archive</a></li>
                             <li><a class='dropdown-item' href='./lab-and-facilities.html'>Laboratories and Facilities</a></li>
+                            <li><a class='dropdown-item' href='#'>Conferences</a></li>
+                            <li><a class='dropdown-item' href='#'>Downloadable Forms and Policies</a></li>
                         </ul>
                     </li>
                 </ul>
