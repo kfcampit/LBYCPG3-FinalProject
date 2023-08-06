@@ -553,3 +553,116 @@ tr {
     margin-top: 32px;
     margin-bottom: 64px;
 }
+
+
+/* Licensure CSS */
+.green-bg {
+    background-color: #1e403b;
+}
+
+.beige-bg {
+    background-color: #EFECD6;
+}
+
+.text-header-green {
+    position: relative;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    font-weight: bold;
+    text-align: center;
+    padding: 10px 0;
+    width: 100%;
+    height: 64px;
+    background-color: white;
+}
+
+.text-header-white {
+    position: relative;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    font-weight: bold;
+    text-align: center;
+    padding: 10px 0;
+    width: 100%;
+    height: 64px;
+    color: white;
+    background-color: #1e403b;
+}
+
+.text-header-line-2 {
+    height: 2px;
+    width: 60%;
+    background-color: #EFECD6;
+    margin: auto;
+    margin-bottom: 50px;
+}
+
+.style-table-green-bg { /* header */
+    padding-left: 64px;
+    padding-right: 64px;
+    width: 100%;
+    text-align: center;
+    padding: 30px;
+    border: 5px solid;
+    border-color: black;
+    font-size: 20px;
+}
+
+.style-table-green-bg th{ /* header */
+    padding-top: 30px;
+    padding-bottom: 30px;
+    border: 5px solid;
+    border-color: black;
+    background-color: #EFECD6;
+    color: black;
+}
+
+.style-table-beige-bg td{ /* cell */
+    padding-top: 30px;
+    padding-bottom: 30px;
+    border: 5px solid;
+    border-color: black;
+    background-color: white;
+}
+
+.style-table-beige-bg { /* header */
+    padding-left: 64px;
+    padding-right: 64px;
+    width: 100%;
+    text-align: center;
+    padding: 30px;
+    border: 5px solid;
+    border-color: black;
+    font-size: 20px;
+}
+
+.style-table-beige-bg th{ /* header */
+    padding-top: 30px;
+    padding-bottom: 30px;
+    border: 5px solid;
+    border-color: black;
+    background-color: #1e403b;
+    color: white;
+}
+
+.style-table-green-bg td{ /* cell */
+    padding-top: 30px;
+    padding-bottom: 30px;
+    border: 5px solid;
+    border-color: black;
+    background-color: white;
+}
+
+#licensure-header{
+    position: relative;
+    /* margin-top: 50px; */
+    margin-bottom: 50px;
+    padding-left: 64px;
+    padding-right: 64px;
+    width: 100%;
+    color:white;
+    text-align:left;
+    font-size: 50px;
+    font-weight: bold;
+}
+
