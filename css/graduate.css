@@ -101,7 +101,7 @@ body {
 }
 
 .frame2-col1-container {
-    margin-top: 80px;
+    margin-top: 40px;
     max-width: 600px;
     margin-left: auto;
     margin-right: auto;
@@ -123,6 +123,7 @@ body {
     background-color: #1e403b;
     height: fit-content;
     width: 100%;
+    padding-bottom: 3%;
 }
 
 #frame3 h1 {
@@ -181,7 +182,7 @@ body {
     width: 100%;
 }
 
-.frame5-container {
+.frame6-container {
     max-width: 500px;
     margin-left: auto;
     margin-right: auto;
@@ -191,9 +192,47 @@ body {
     margin-top: 7.5%;
 }
 
-.frame5-container h3 {
+.frame6-container h3 {
     transform: translateY(-50%);
     color: #1e403b;
+    font-size: 50px;
+    font-weight: 700;
+    padding-top: 64%;
+    padding-left: 32px;
+}
+
+.frame7-container {
+    max-width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: white;
+    height: 70%;
+    width: 100%;
+    margin-top: 13%;
+}
+
+.frame7-container h3 {
+    transform: translateY(-50%);
+    color: #1e403b;
+    font-size: 50px;
+    font-weight: 700;
+    padding-top: 64%;
+    padding-left: 32px;
+}
+
+.frame8-container {
+    max-width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #1e403b;
+    height: 70%;
+    width: 100%;
+    margin-top: 11%;
+}
+
+.frame8-container h3 {
+    transform: translateY(-50%);
+    color: #EFECD6;
     font-size: 50px;
     font-weight: 700;
     padding-top: 64%;
@@ -253,6 +292,7 @@ body {
     background-color: #EFECD6;
     height: fit-content;
     width: 100%;
+    padding-bottom: 3%;
 }
 
 #frame4 h1 {

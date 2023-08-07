@@ -1,0 +1,63 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #1e403b;
+}
+
+#page-header {
+    background-size: cover;
+    background-position: center;
+    height: calc(100vh * 0.5);
+    background-image: url(../img/header1.jpg);
+}
+
+#header-block {
+    position: absolute;
+    width: 720px;
+    height: 320px;
+    top: calc(100vh * 0.4);
+    left: calc(50% - 360px);
+    background-color: white;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+#header-contents {
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+#header-block h1 {
+    padding-left: 64px;
+    padding-right: 64px;
+    width: 100%;
+    font-weight: 300;
+    color: #1e403b;
+    text-align: center;
+    font-size: 50px;
+}
+
+#header-block .line {
+    height: 2px;
+    width: 80%;
+    background-color: #1e403b;
+    margin: auto;
+}
+
+#header-block h2 {
+    margin-top: 16px;
+    font-size: 27px;
+    width: 100%;
+    color: #1e403b;
+    text-align: center;
+    font-weight: 100;
+}
+
+/* FRAME 1 AND 2 STYLINGS */
+
+#frame1 {
+    background-color: #1e403b;
+    padding-top: 288px;
+    padding-bottom: 128px;
+    height: max-content;
+    width: fit-content;
+}
