@@ -42,8 +42,8 @@ document.write(
                         <ul class='dropdown-menu' aria-labelledby='navbarDropdownMenuLink'>
                             <li><a class='dropdown-item' href='./thesis-archive.html'>Thesis Archive</a></li>
                             <li><a class='dropdown-item' href='./lab-and-facilities.html'>Laboratories and Facilities</a></li>
-                            <li><a class='dropdown-item' href='./awards.html'>Conferences</a></li>
-                            <li><a class='dropdown-item' href='./conferences.html'>Downloadable Forms and Policies</a></li>
+                            <li><a class='dropdown-item' href='./conferences.html'>Conferences</a></li>
+                            <li><a class='dropdown-item' href='./downloadables.html'>Downloadable Forms and Policies</a></li>
                         </ul>
                     </li>
                 </ul>
